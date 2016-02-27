@@ -1,0 +1,6 @@
+[Unit]
+Description=Backup Service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/backup.sh 36ded5a1-c0c1-4f7a-b1f1-410e0db57fc6 fc45da7b-417c-467a-bcb9-bcf9e6c99581 data
